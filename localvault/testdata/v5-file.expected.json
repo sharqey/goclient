@@ -1,0 +1,31 @@
+{
+  "password": "sharqey-golden-v5",
+  "vault_name": "Golden v5",
+  "format_version": 5,
+  "groups": [
+    {
+      "id": "10031f62f3e57723221ce134646a88ea",
+      "name": "ios"
+    }
+  ],
+  "secrets": [
+    {
+      "id": "cccc83524f36eddeb453aa14254b7ea7",
+      "title": "P12_PASSWORD",
+      "type": "env",
+      "group_id": "10031f62f3e57723221ce134646a88ea",
+      "content": "{\"value\":\"p12-password-123\",\"notes\":\"\"}"
+    },
+    {
+      "id": "92254c9623be990ed75dd7408a640427",
+      "title": "runner.p12",
+      "type": "file",
+      "group_id": "10031f62f3e57723221ce134646a88ea",
+      "filename": "runner.p12",
+      "mime": "application/x-pkcs12",
+      "size": 38,
+      "sha256": "55b810dd7db7238544e18860819e9b76c644d6beadcc5f9d36e9b4f4a1e9aa6f",
+      "content_base64": "U2hhcnFleSBnb2xkZW4gZmlsZQoAAQL+/yBiaW5hcnkgdGFpbAo="
+    }
+  ]
+}

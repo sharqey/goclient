@@ -1,0 +1,7 @@
+# Fixtury testowe (syntetyczne klucze i hasła do złotych plików .sharqey), nie sekrety.
+[allowlist]
+description = "test fixtures"
+paths = [
+  '''(^|/)testdata/''',
+  '''_test\.go$''',
+]
